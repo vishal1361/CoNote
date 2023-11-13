@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/android-studio-ide-201.6858069-windows/Assignments/Project7/app/src/main/res/drawable/ic_add_button_svgrepo_com.xml" value="0.14722222222222223" />
+        <entry key="..\:/android-studio-ide-201.6858069-windows/Assignments/Project7/app/src/main/res/drawable/ic_add_button_svgrepo_com__1_.xml" value="0.14722222222222223" />
+        <entry key="..\:/android-studio-ide-201.6858069-windows/Assignments/Project7/app/src/main/res/drawable/ic_add_user_svgrepo_com.xml" value="0.14722222222222223" />
+        <entry key="..\:/android-studio-ide-201.6858069-windows/Assignments/Project7/app/src/main/res/drawable/ic_document_add_svgrepo_com.xml" value="0.14537037037037037" />
+        <entry key="..\:/android-studio-ide-201.6858069-windows/Assignments/Project7/app/src/main/res/drawable/ic_edit_content_svgrepo_com.xml" value="0.14537037037037037" />
+        <entry key="..\:/android-studio-ide-201.6858069-windows/Assignments/Project7/app/src/main/res/drawable/ic_floppy_disk_save_button_svgrepo_com.xml" value="0.14722222222222223" />
+        <entry key="..\:/android-studio-ide-201.6858069-windows/Assignments/Project7/app/src/main/res/drawable/ic_google.xml" value="0.19166666666666668" />
+        <entry key="..\:/android-studio-ide-201.6858069-windows/Assignments/Project7/app/src/main/res/drawable/ic_screenshot_2023_11_11_161947.xml" value="0.14537037037037037" />
+        <entry key="..\:/android-studio-ide-201.6858069-windows/Assignments/Project7/app/src/main/res/drawable/ic_tick_checkbox_svgrepo_com.xml" value="0.1" />
+        <entry key="..\:/android-studio-ide-201.6858069-windows/Assignments/Project7/app/src/main/res/layout/activity_main.xml" value="0.22" />
+        <entry key="..\:/android-studio-ide-201.6858069-windows/Assignments/Project7/app/src/main/res/layout/activity_my_notes.xml" value="0.42125" />
+        <entry key="..\:/android-studio-ide-201.6858069-windows/Assignments/Project7/app/src/main/res/layout/activity_my_orders.xml" value="0.3333333333333333" />
+        <entry key="..\:/android-studio-ide-201.6858069-windows/Assignments/Project7/app/src/main/res/layout/activity_new_note.xml" value="0.3873563218390805" />
+        <entry key="..\:/android-studio-ide-201.6858069-windows/Assignments/Project7/app/src/main/res/layout/activity_register_user.xml" value="0.16666666666666666" />
+        <entry key="..\:/android-studio-ide-201.6858069-windows/Assignments/Project7/app/src/main/res/layout/add_user_layout.xml" value="0.22" />
+        <entry key="..\:/android-studio-ide-201.6858069-windows/Assignments/Project7/app/src/main/res/layout/manage_user_layout.xml" value="0.3333333333333333" />
+        <entry key="..\:/android-studio-ide-201.6858069-windows/Assignments/Project7/app/src/main/res/layout/note_card_layout.xml" value="0.3333333333333333" />
+        <entry key="..\:/android-studio-ide-201.6858069-windows/Assignments/Project7/app/src/main/res/layout/popup_layout.xml" value="0.12395833333333334" />
+        <entry key="..\:/android-studio-ide-201.6858069-windows/Assignments/Project7/app/src/main/res/layout/register_user_layout.xml" value="0.22" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

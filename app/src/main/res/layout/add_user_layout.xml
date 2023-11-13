@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/addUserCardView"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="16dp"
+    android:elevation="8dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp">
+
+        <!-- User Image -->
+        <ImageView
+            android:id="@+id/userImageView"
+            android:layout_width="96dp"
+            android:layout_height="96dp"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/ic_profile_svgrepo_com"
+            android:contentDescription="User Image" />
+
+        <!-- Email EditText -->
+        <EditText
+            android:id="@+id/emailEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/userImageView"
+            android:layout_marginTop="16dp"
+            android:hint="Email Address"
+            android:minHeight="48dp" />
+
+        <!-- Nickname EditText -->
+        <EditText
+            android:id="@+id/nicknameEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/emailEditText"
+            android:layout_marginTop="8dp"
+            android:hint="Nick Name"
+            android:minHeight="48dp" />
+
+        <!-- Add User Button -->
+        <Button
+            android:id="@+id/addUserButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/nicknameEditText"
+            android:layout_marginTop="16dp"
+            android:text="Add User" />
+
+        <!-- Permissions Message TextView -->
+        <TextView
+            android:id="@+id/permissionsTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/addUserButton"
+            android:layout_marginTop="16dp"
+            android:text="By adding the user, you grant necessary permissions." />
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

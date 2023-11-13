@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="10dp"
+    android:layout_marginTop="4dp"
+    android:layout_marginRight="8dp"
+    app:cardCornerRadius="8dp"
+    app:cardElevation="4dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <!-- Task Title -->
+            <TextView
+                android:id="@+id/taskTitle"
+                android:layout_width="310dp"
+                android:layout_height="wrap_content"
+                android:text="Task Title"
+                android:textColor="#000000"
+                android:textSize="20sp" />
+
+            <ImageView
+                android:id="@+id/ownerOrSharedNoteIcon"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:layout_gravity="center_vertical"
+                android:layout_marginStart="8dp"
+                android:visibility="visible" />
+        </LinearLayout>
+
+        <!-- Small Content -->
+        <TextView
+            android:id="@+id/taskContent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Small content for the task."
+            android:textColor="#000000"
+            android:textSize="14sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:orientation="horizontal">
+
+            <!-- Profile Photo -->
+            <ImageView
+                android:id="@+id/manageUserIcon"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:layout_gravity="center_vertical"
+                android:scaleType="centerCrop"
+                android:src="@drawable/ic_profile_svgrepo_com" />
+
+            <!-- Add User Icon -->
+            <ImageView
+                android:id="@+id/addUserIcon"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:layout_gravity="center_vertical"
+                android:layout_marginStart="16dp"
+                android:src="@drawable/ic_add_user_svgrepo_com" />
+
+            <!-- Add User Icon -->
+            <ImageView
+                android:id="@+id/deleteNoteIcon"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:layout_gravity="center_vertical"
+                android:layout_marginStart="230dp"
+                android:visibility="visible"
+                android:src="@drawable/ic_delete_svgrepo_com" />
+
+        </LinearLayout>
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

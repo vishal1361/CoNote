@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="#8F8F8F"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".NewNote">
+
+
+    <LinearLayout
+        android:id="@+id/header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintStart_toStartOf="parent"
+        android:background="#FFC400"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <EditText
+            android:id="@+id/title"
+            android:layout_width="0dp"
+            android:layout_height="68dp"
+            android:layout_marginTop="1dp"
+            android:layout_weight="1"
+            android:hint="Title"
+            android:inputType="text"
+            android:paddingLeft="20dp"
+            android:textColor="#000000"
+            android:textSize="20sp" />
+
+        <ImageView
+            android:id="@+id/saveIcon"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_marginStart="5dp"
+            android:layout_marginEnd="5dp"
+            android:layout_gravity="center_vertical"
+            android:src="@drawable/ic_card_tick_1_svgrepo_com" />
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/content"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="#FFFFFF"
+        android:ems="10"
+        android:gravity="start|top"
+        android:hint="Write here..."
+        android:inputType="textMultiLine"
+        android:paddingLeft="20dp"
+        android:textColor="#000000"
+        android:textSize="20sp"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.481"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/header" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
